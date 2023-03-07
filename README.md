@@ -41,3 +41,14 @@ Traceback (most recent call last):
 PermissionError: [WinError 5] Access is denied: 'c:\\program files\\python35\\lib\\site-packages\\pip-7.1.2.dist-info\\description.rst'
 You are using pip version 7.1.2, however version 23.0.1 is available.
 You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+pip install -r requirements.txt
+Collecting confluent-kafka==1.9.2 (from -r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/4d/97/2d9c7c0bb5c925bd5abef670ffd78c77f239804dcaa89fa101314d43e03f/confluent-kafka-1.9.2.tar.gz
+    Complete output from command python setup.py egg_info:
+    error in confluent-kafka setup command: 'install_requires' must be a string or list of strings containing valid project/version requirement specifiers; Expe
+cted version spec in futures;python_version<"3.2" at ;python_version<"3.2"
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in C:\Users\Z318291\AppData\Local\Temp\pip-build-th6vdiwg\confluent-kafka
+
